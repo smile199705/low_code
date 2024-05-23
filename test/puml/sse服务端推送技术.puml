@@ -1,0 +1,11 @@
+
+@startuml
+== Server-Sent Events(SSE) ==
+Client -> Server: HTTP Request
+Server --> Client: Response(text/event-stream)
+Server --> Client: Event
+Server --> Client: Event
+Server --> Client: ......
+Server -> Client: Close Connection
+
+@enduml

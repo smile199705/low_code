@@ -1,0 +1,10 @@
+// 导出
+export { UserModule } from './user/user.module'
+export { AuthModule } from './auth/auth.module'
+export { PagesModule } from './pages/pages.module'
+export { ProjectsModule } from './projects/projects.module'
+export { TradesModule } from './trades/trades.module'
+export { ComponentsModule } from './components/components.module'
+export { ApplicationsModule } from './applications/applications.module'
+export { TagsModule } from './tags/tags.module'
+export { DatasourceModule } from './datasource/datasource.module'
